@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "minimumTlsVersion": {
+      "value": "TLS1_2"
+    },
+    "supportsHttpsTrafficOnly": {
+     "value": true
+    },
+    "allowBlobPublicAccess": {
+      "value": true
+    },
+    "addressPrefix": {
+      "value": "10.0.0.0/16"
+    },
+    "subnetName": {
+      "value": "Subnet"
+    },
+    "subnetPrefix": {
+      "value": "10.0.0.0/24"
+    },
+    "virtualNetworkName": {
+      "value": "MyVNET"
+    },
+    "networkSecurityGroupName": {
+      "value": "default-NSG"
+    },
+    "windowsOSVersion": {
+      "value": "2016-Datacenter"
+    },
+    "vmSize": {
+      "value": "Standard_D2_v3"
+    },
+    "nicName": {
+      "value": "myVMNic1"
+    },
+    "publicIPAddressName": {
+      "value": "myPublicIP1"
+    },
+    "vmName": {
+      "value": "SimpleWinVM1"
+    },
+    "adminUsername": {
+      "value": "myadmin"
+    },
+    "adminPassword": {
+      "value": "Mytestuser1234567"
+    }
+  }
+}
